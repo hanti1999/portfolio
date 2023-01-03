@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url('/Practise/Portfolio/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
