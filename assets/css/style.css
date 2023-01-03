@@ -10,7 +10,11 @@ html {
     line-height: 1.4;
 }
 
+h1 {
+    font-family: raleway;
+}
+
 @font-face {
     font-family: raleway;
-    src: url('/Practise/Portfolio/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
+    src: url('assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
 }
