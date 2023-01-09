@@ -10,6 +10,76 @@ html {
     line-height: 1.4;
 }
 
+body {
+    background-color: #f1f1f1;
+    max-width: 1600px;
+}
+
+/* common ------ */
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.text-grey {
+    color: #757575;
+}
+
+.text-black {
+    color: #000;
+}
+.text-green {
+    color: #009688;;
+}
+
+.back-white {
+    background-color: #fff;
+    color: #000;
+}
+/* ------ End common */
+
+/* Sidebar ------ */
+#sidebar {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+}
+
+#content {
+    margin-left: 300px;
+}
+
+.sidebar__container {
+    margin: 16px;
+}
+
+.sidebar__nav a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+}
+
+.sidebar__nav a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.sidebar__img {
+    width: 120px;
+    border-radius: 5%;
+}
+
+/* ------ End sidebar */
+
 @font-face {
     font-family: raleway;
     src: url('assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
