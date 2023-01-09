@@ -45,6 +45,10 @@ h2 {
     background-color: #fff;
     color: #000;
 }
+
+.pad-8-16 {
+    padding: 8px 16px;
+}
 /* ------ End common */
 
 /* Sidebar ------ */
@@ -76,6 +80,10 @@ h2 {
 .sidebar__img {
     width: 120px;
     border-radius: 5%;
+}
+
+.sidebar__social i:hover{
+    opacity: 0.6;
 }
 
 /* ------ End sidebar */
