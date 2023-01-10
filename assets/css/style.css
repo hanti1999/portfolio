@@ -153,10 +153,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* About ------ */
-.about__img {
+.about-img {
     display: flex;
-    justify-content: space-around;
     margin: 8px;
+}
+
+.about-img__imgs {
+    flex-grow: 1;
 }
 
 .about-intro hr {
@@ -190,7 +193,7 @@ h1, h2, h3, h4, h5 {
     display: flex;
 }
 .contact-info-item {
-    flex-grow: 1;
+    flex: 1;
 }
 
 .contact-info-item__icon{
