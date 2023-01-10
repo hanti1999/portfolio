@@ -306,6 +306,12 @@ h1, h2, h3, h4, h5 {
     display: flex;
     flex-direction: column;
 }
+
+.footer-container-section-itemlist hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
 .footer-container-section-item__img {
     width: 50px;
 }
