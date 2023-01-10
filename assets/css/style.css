@@ -37,7 +37,8 @@ h1, h2, h3, h4, h5 {
 .text-green {
     color: #009688;
 }
-.brg-black {
+
+.br-black {
     background-color: #000;
     color: #fff;
 }
@@ -91,6 +92,45 @@ h1, h2, h3, h4, h5 {
 
     li {
         list-style: none;
+    }
+
+    .hover-black:hover {
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .hover-opal:hover {
+        opacity: 1;
+    }
+
+    .br-light-grey {
+        background-color: #f1f1f1;
+    }
+
+    .br-white {
+        background-color: #fff;
+    }
+
+    .br-green {
+        background-color: #009688;
+        color: #fff;
+    }
+
+    .no-border {
+        border: none;
+    }
+
+    .font-24 {
+        font-size: 24px;
+    }
+
+    .pad-32-16 {
+        padding: 32px 16px;
+    }
+
+    .pad-16-16 {
+        padding: 16px;
     }
     /* ------ End common Hoang Anh */
 
@@ -176,13 +216,24 @@ h1, h2, h3, h4, h5 {
 
 .about-intro-charge {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-intro-charge__plan {
-    border: 1px solid #ccc;
-    flex-basis: 30%;
+    flex-basis: 32%;
     text-align: center;
+    opacity: 0.6;
+}
+
+.about-intro-charge__plan li {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.sign-btn {
+    border: none;
+    background-color: #009688;
+    color: #fff;
 }
 /* ------ End about */
 
