@@ -315,4 +315,9 @@ h1, h2, h3, h4, h5 {
     justify-content: center;
 }
 
+.footer-container-section-tag {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
 /* ------ End Footer */
