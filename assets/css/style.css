@@ -203,6 +203,25 @@ h1, h2, h3, h4, h5 {
 
 /* ------ End sidebar */
 
+/*-------header*/
+
+
+
+/* ------ End header */
+
+/*post*/
+
+.post-container {
+    display: flex;
+    
+}
+.post__item {
+    flex-basis: 33.3333%;
+}
+.post__item img {
+    width: 100%;
+}
+/*post*/
 @font-face {
     font-family: raleway;
     src: url('/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
