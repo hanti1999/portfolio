@@ -37,6 +37,47 @@ h1, h2, h3, h4, h5 {
 .text-green {
     color: #009688;
 }
+.brg-black {
+    background-color: #000;
+    color: #fff;
+}
+    /*----By Thang*/
+    .pad-12-24{
+        padding: 12px 24px;
+    }
+    .pad-24-8 {
+        padding: 24px 0px;
+    }
+    .br-grey {
+    background-color: #9e9e9e !important;
+    }
+    .font-36 {
+        font-size: 36px !important;
+    }
+    .font-20 {
+        font-size: 20px;
+    }
+    .font-15 {
+        font-size: 15px;
+    }
+    .mr-15-0 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .pad-0-8 {
+        padding: 0px 8px;
+    }
+    .pad-8 {
+        padding: 8px;
+    }
+    .pad-8-16 {
+        padding: 8px 16px;
+    }
+
+
+    /* ------ End Thang */
+
+
 /* ------ End common */
 
 /* Sidebar ------ */
@@ -94,3 +135,35 @@ h1, h2, h3, h4, h5 {
     font-family: raleway;
     src: url('assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
 }
+
+
+
+/* Contact ------ */
+.contact-info {
+    display: flex;
+}
+.contact-info-item {
+    flex-grow: 1;
+}
+
+.contact-info-item__icon{
+    display: flex;
+    justify-content: center;
+}
+.contact-info-item__text{
+    display: flex;
+    justify-content: center;
+}
+.contact-info-item--darkgrey{
+    background-color: #616161 !important;
+    color: #fff !important;
+}
+.contact-info-item--crystal {
+    background-color: #009688!important;
+    color: #fff !important;
+}
+.contact-form-section {
+    display: flex;
+    flex-direction: column;
+}
+/* ------ End contact */
