@@ -222,7 +222,6 @@ h1, h2, h3, h4, h5 {
     background-color: #ccc;
     cursor: pointer;
 }
-
 /* ------ End header */
 
 /*post*/
@@ -234,6 +233,11 @@ h1, h2, h3, h4, h5 {
 .post__item {
     flex-basis: 33.3333%;
 }
+
+.post__item:hover img {
+    opacity: 0.6;
+}
+
 .post__item img {
     width: 100%;
 }
